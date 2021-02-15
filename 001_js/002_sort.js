@@ -3,11 +3,11 @@
  */
 
 function alphabeticalOrder(arr) {
-  // Only change code below this line
+	// Only change code below this line
 
-  return arr.sort();
+	return arr.sort();
 
-  // Only change code above this line
+	// Only change code above this line
 }
 const sorted = alphabeticalOrder(["a", "d", "c", "a", "z", "g"]);
 console.log(sorted);

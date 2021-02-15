@@ -4,14 +4,14 @@
  */
 
 const squareList = (arr) => {
-  // Only change code below this line
-  arr = arr.filter((num) => {
-    if (num > -1 && Number.isInteger(num)) return num;
-  });
+	// Only change code below this line
+	arr = arr.filter((num) => {
+		if (num > -1 && Number.isInteger(num)) return num;
+	});
 
-  arr = arr.map((num) => num * num);
-  return arr;
-  // Only change code above this line
+	arr = arr.map((num) => num * num);
+	return arr;
+	// Only change code above this line
 };
 
 const squaredIntegers = squareList([-3, 4.8, 5, 3, -3.2]);

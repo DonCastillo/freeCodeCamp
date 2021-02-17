@@ -27,7 +27,10 @@ function sumFibs(num) {
 	}
 
 	let finalArray = fiboArray(num).filter((y) => y <= num && y % 2 === 1);
-    let sum = finalArray.length === 0 ? 1 : finalArray.reduce((acc, cur) => acc + cur)
+	let sum =
+		finalArray.length === 0
+			? 1
+			: finalArray.reduce((acc, cur) => acc + cur);
 	return sum;
 }
 
